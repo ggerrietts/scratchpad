@@ -6,15 +6,10 @@ Performance by the Numbers: analyzing the performance of web applications
 Everyone knows poor performance when they see it, and performance concerns affect every application -- web applications more than most.  But finding performance problems can be extraordinarily difficult, and requires an analytical approach coupled with good instrumentation. This talk explores approaches to instrumentation and what that instrumentation can tell you.
 
 ##Audience:
-mainly web engineers
+Web engineers and devops engineers. This talk introduces key concepts in performance analysis.
 
 ##Objectives:
-- have some numbers on the importance of performance
-- understand the importance of instrumentation in performance remediation
-- familiar with strengths and weakness of profiler as a performance analysis tool
-- familiar with "roll your own" monitoring endpoints
-- familiar with statsd + graphite for event tracking and timing
-- familiar with distributed tracing tools (Zipkin, New Relic, AppNeta, AppDynamics)
+When leaving this talk, an attendee should have a sense of how important peformance is to a company's bottom line. They should understand the role of profiling in performance analysis. They should understand what operating system tools can reveal about application performance. They will know approximately how to go about building custom instrumentation tools. They will know what Etsy's statsd package does, and how to leverage it. They will also understand the role of distributed tracing in performance analysis.
 
 ##Detailed Abstract:
 Businesses can rise or fall on the margins created by application performance. Conversions, revenue, and traffic all increase dramatically as websites get faster. Giant after internet giant has produced metrics reaffirming the importance of fractional seconds of response time.
@@ -66,4 +61,4 @@ This sort of instrumentation comes in many forms. Developers often write their o
 - I've been on-and-off active in the Python community for years. I contributed regularly to the Python mailing list in the early 2000's, and built/maintained the (now-defunct) LiveJournal client Stoutpamphlet.
 - I inherited Jack Diederich's ("Stop Writing Classes") first Python codebase and maintained it for several years.
 - I wrote my first performance instrumentation in 2005 as a CORBA service tracking aggregate service response times while building up what would now be called a DevOps group. Performance, scalability, and best practices have been areas of interest ever since.
-- Full disclosure: I'm currently a development manager for AppNeta, one of the vendors for tracing solutions. I expect this talk to discount my bias by also identifying our competition, identifying open source alternatives, not actually pitching our product but only showing a screenshot, and emphasizing that no single approach actually covers everything. It's a very fair treatment, though I understand why the committee might be sensitive.
+- I am a development manager at AppNeta, with a ton of performance-related stories and lots of examples of performance done right and done wrong.

@@ -1,5 +1,6 @@
 
 Performance Analysis as Performance Art: my experience speaking at PyCon 2015
+=============================================================================
 
 Sunday afternoon, I had the pleasure of addressing my largest audience ever on
 a topic very dear to my heart. With each talk I attended, my anxiety increased:
